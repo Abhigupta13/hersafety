@@ -12,7 +12,7 @@ const Contact_Card = () => {
         </p></li>
         <li className="cardlist"><a className="carda" href="tel:+918107843028" target="_blank" rel="noopener"><span class="iconstyles" style={{ color:"rgb(110, 94, 254)" }}><PhoneIcon/>&nbsp;+91 8107843028</span></a></li>
         <li className="cardlist"><h5 className="card-title">Write To Us</h5></li>
-        <li className="cardlist"><a className="carda" href="mailto:info@randomemail.org" target="_blank" rel="noopener"><span  class="iconstyles" style={{color:"rgb(110, 94, 254)"}}><ContactMailIcon/>&nbsp;&nbsp;info@randomemail.org</span></a></li>
+        <li className="cardlist"><a className="carda" href="mailto:abhishekkumargupta22110@gmail.com" target="_blank" rel="noopener"><span  class="iconstyles" style={{color:"rgb(110, 94, 254)"}}><ContactMailIcon/>&nbsp;&nbsp;abhishekkumargupta22110@gmail.com</span></a></li>
       </ul>   
     </div>
     

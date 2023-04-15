@@ -18,6 +18,7 @@ import AnalyticsPage from "./Pages/AnalyticsPage/AnalyticsPage";
 import XYChart from "./components/chart/XYChart";
 import TenNgosfighting from "./Pages/ten_ngos_fighting/TenNgosfighting";
 import ChatBot from "react-simple-chatbot";
+import VideoCallButton from "./components/Video";
 const App = () => {
   const steps = [
     
@@ -126,7 +127,7 @@ const App = () => {
           <Route exact path="/Analytics" element={<AnalyticsPage />}></Route>
           <Route exact path="/XYChart" element={<XYChart />}></Route>
           <Route exact path="/TenNgos" element={<TenNgosfighting />}></Route>
-          <Route exact path="/video" ></Route>
+          <Route exact path="/video" element={<VideoCallButton/>} ></Route>
           
         <Route exact path='/chatbot' element={ <ChatBot steps={steps}/>  }/>
         </Routes>

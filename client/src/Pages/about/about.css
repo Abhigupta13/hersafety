@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani&display=swap');
 
 .mb {
-    margin-bottom: 2%;
+    margin: 9%;
 }
 
 .mainContainer {
@@ -22,14 +22,17 @@
     margin: auto;
     font-size: 250%;
 }
-
+.aboutClass{
+    height: 140px;
+    margin-bottom: 2rem;
+}
 .logoContainer {
-    background-image: url('../../images/navlogo.png');
-    height: 200px;
-    width: 200px;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    border: 10px solid rgb(110, 94, 254);
+    /* background-image: url('../../images/navlogo.png');
+    background-repeat: no-repeat; */
+    height: 100px;
+    width: 100px;
+    /* border-radius: 50%;
+    border: 10px solid rgb(110, 94, 254); */
     align-items: center;
     margin: auto;
 }
