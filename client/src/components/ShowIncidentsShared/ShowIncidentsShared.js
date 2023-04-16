@@ -112,6 +112,7 @@ export default function Showincidentsshared() {
     setLocations(location);
     setShowIncidentsfrom(showIncidentfrom);
   };
+
   const handleIncidentClear = () => {
     console.log()
     setTypesofassault([]);
@@ -121,6 +122,7 @@ export default function Showincidentsshared() {
     setShowIncidentfrom("All time");
     setShowIncidentsfrom("All time");
   };
+  
   const handleTypeofassault = (event) => {
     const {
       target: { value },

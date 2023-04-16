@@ -29,7 +29,7 @@
 
 .btn {
     background-color: #d94234;
-    padding: 8px 20px;
+    padding: 8px 8px;
     border-radius: 4px;
     outline: none;
     border: none;
@@ -39,6 +39,7 @@
     font-size: large;
     display: flex;
     flex-direction: row;
+    margin-left: 2%;
 }
 
 .contentlogo {
@@ -49,8 +50,7 @@
 }
 
 .btn:hover {
-    margin: -1px;
-    border: 1px solid #d0d0d0;
+    
     background-color: red;
 }
 
@@ -73,7 +73,20 @@
     line-height: 28px;
     font-family: 'Caveat', cursive;
 }
-
+.user-btn{
+    margin-left: -69px;
+    background-color: #bfb1b0;
+    padding: 8px 8px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Mukta Vaani', sans-serif;
+    color: #fff;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+}
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
@@ -133,7 +146,7 @@
     align-items: center;
 }
 .btn-video{
-    margin-left: 2rem!important;
+    margin-left: 1rem!important;
 }
 
 @media screen and (max-width:1100px) {

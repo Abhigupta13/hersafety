@@ -50,7 +50,7 @@ const SideBar = () => {
             to="/about"
           >
             <InfoIcon />
-            &nbsp;&nbsp;About HerCare
+            &nbsp;&nbsp;About HerSafety
           </NavLink>
         </li>
         <li className="nav-item">

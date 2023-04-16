@@ -7,6 +7,7 @@ import Dropdown from "../Dropdown/Dropdown.js";
 import "./navbar.css";
 import { NavLink, useNavigate } from "react-router-dom";
 import VideocamIcon from '@mui/icons-material/Videocam';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -26,6 +27,9 @@ const Navbar = () => {
   };
   const videodirected = () => {
     navigate("/video");
+  };
+  const authdirected = () => {
+    navigate("/auth");
   };
 
   return (
@@ -98,15 +102,24 @@ const Navbar = () => {
           </NavLink>
         </li>
       </ul>
+      <button className="user-btn" onClick={authdirected}>
+       
+        
+       
+       
+        <AccountCircleIcon style={{ fontSize: "23px" }} />
+          UserName &nbsp;
+      </button>
       <button className="btn" onClick={helpdirected}>
         Help &nbsp;
         <div className="contentlogo">
-          <PrivacyTipIcon style={{ fontSize: "22px" }} />
+          
+        <PrivacyTipIcon style={{ fontSize: "18px" }} />
         </div>
       </button>
       <button className="btn-video btn" onClick={videodirected}>
-        Video &nbsp;  
-        <div className="contentlogo"><VideocamIcon style={{ fontSize: "28px" }}/></div>
+        Video&nbsp;  
+        <div className="contentlogo"><VideocamIcon style={{ fontSize: "18px" }}/></div>
         
         </button>
     </nav>

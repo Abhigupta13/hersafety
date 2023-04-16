@@ -9,12 +9,12 @@ const About = () => {
       <Navbar />
       <SideBar />
       <div className="mainContainer">
-        <h1 className="mb">About HerCare</h1>
+        <h1 className="mb">About HerSafety</h1>
         <div className="logoContainer mb">
           <img className="aboutClass" src="https://play-lh.googleusercontent.com/YI0x2uebd60h9h6v3jnMv3b4RlGSP2CwxUyNhlDDp0PbWKeNgm1CiF_L51hRZtdzIL0" />
         </div>
         <p className="mb">
-          HerCare is a platform that crowdsources personal stories of sexual
+          HerSafety is a platform that crowdsources personal stories of sexual
           harassment and abuse in public spaces. This data which maybe
           anonymous, gets aggregated as hot spots on a map indicating trends at
           a local level. The idea is to make this data useful for individuals,

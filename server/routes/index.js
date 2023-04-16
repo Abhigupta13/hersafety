@@ -10,4 +10,5 @@ router.get("/incident", incidentController.get);           //get incident
 router.get("/getAllIncidents", incidentController.getAllIncidents);     // get all incidents
 router.get("/getIncidentFormData", incidentController.getIncidentFormData);
 router.get("/getAllSafetyTips", safetyTipController.getAllSafetyTips); // get All safety Tips
+router.get("/getAllSafetyTips", safetyTipController.getAllSafetyTips); // get All safety Tips
 module.exports = router;
