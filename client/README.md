@@ -1,79 +1,37 @@
-# Hii Developers
+#1  Problem Statement:
+A STATE WEB PORTAL FOR WOMEN SEXUAL HARASSMENT AT WORKPLACE
 
-I have created a News app using React js named NewWave.
-If you go through the recent commits you can see that firstly i create this app using class based react component then after i changed it into function based react component which gives me much knowledge about the concepts.
-for this project I'm using api from Newsapi.org which is free for developers 
-so we can only see the news on local Host and working of the App.
-If you want to see this project working download the code and run in your pc in local Host using npm start
+#2  Team TechMiners
+
+Abhishek Kumar Gupta 
+Rohit Yadav            
+Ayush Srivastava     
+Priyanshu Arya       
 
 
-# Getting Started with Create React App
+#3  Our idea and approach used in implementing it:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Web app for women to share harassment and assault incidents anonymously
+> Allows users to share tips on how to counter incidents and learn from prior victims' experiences
+> Includes a list of top ngos that support women in fighting harassment and violence according to there given location
+> provides analytics to track incidents and offer useful insights
+> Creates a faqs section covering frequently asked questions about harassment and violence against women
+> Educates women on the legal steps involved in filing an fir
+> Provides a safe and secure platform for women to seek help, share experiences, and learn from each other
+> Raises awareness and educate the community about the issue of harassment and violence against women.
+> Book an appointment for video call to any NGO to handle mental health of the victim
+> A help button for Emergency Contacts
+> Map view to indicate the hostspot areas of the incidents
+> Trained ChatBot to help victims get support
 
-## Available Scripts
 
-In the project directory, you can run:
+#4  TechStack :
+> React.Js
+> BootStrap
+> Node.Js
+> FireBase
+> Flutter 
 
-### `npm start`
+#5 ScreenShots:
+![image](https://user-images.githubusercontent.com/100848632/232347122-fa0905fb-0668-44ac-bb9a-bdb9824c8cd0.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
